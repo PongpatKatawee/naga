@@ -1,0 +1,79 @@
+/* monitor */
+.monitor_h1
+{
+    width:150px;
+    height:50px;
+    background-color:#333333;
+    color:white;
+    border:solid 1px white;
+}
+
+.monitor_h2
+{
+    width:80px;
+    height:50px;
+    background-color:#333333;
+    color:white;
+    border:solid 1px white;
+}
+
+.monitor_h3
+{
+    width:80px;
+    height:50px;
+    background-color:#333333;
+    color:white;
+    border:solid 1px white;
+}
+
+.monitor_h4
+{
+    width:80px;
+    height:40px;
+    background-color:#333333;
+    color:white;
+    border:solid 1px white;
+}
+
+.monitor_h5
+{
+    width:80px;
+    height:40px;
+    background-color:#333333;
+    color:white;
+    border:solid 1px white;
+}
+
+.monitor_c1
+{
+    width:50px;
+    height:30px;
+    color:black;
+    border:solid 1px white;
+}
+
+.monitor_c2
+{
+    color:black;
+    border:solid 1px white;
+    text-align:left;
+}
+
+.monitor_c3
+{
+    color:black;
+    border:solid 1px white;
+    text-align:left;
+}
+
+.monitor_c4
+{
+    color:black;
+    border:solid 1px white;
+}
+
+.monitor_c5
+{
+    color:black;
+    border:solid 1px white;
+}

@@ -1,0 +1,40 @@
+/*menu bar*/
+body {
+	overflow:hidden;
+}
+.menubar {
+	background: rgba(65, 65, 65, 0.4);
+	color: #ffffff;
+	position: fixed;
+	width: auto;
+	min-height: auto;
+	z-index:9999;
+	/*margin-top: 10px;*/
+	padding: 7px;
+	padding-left: 10px;
+}
+
+.menubar a {
+	color: white ;
+}
+.menubar a:hover{
+	color: red;
+}
+/*.menu__tool {
+
+}*/
+.infobox {
+	background: rgba(65, 65, 65, 0.0);
+	position: fixed;
+	color: #ffffff;
+	top: 0px;
+	right: 0px;
+	width: 130px;
+	font-size: 12px;
+	min-height: auto;
+	z-index:9999;
+}
+
+.infobox td {
+	padding: 3px;
+}

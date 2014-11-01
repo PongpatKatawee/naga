@@ -1,0 +1,110 @@
+/* location table */
+.location_table
+{
+
+}
+
+.location_crow 
+{
+    background: #dddddd;
+    cursor:pointer;
+}
+
+.location_crow:hover
+{
+    background-color: #ffff99;
+}
+
+.location_h1
+{
+    width:50px;
+    height:50px;
+    background-color:#333333;
+    color:white;
+    border:solid 1px white;
+}
+
+.location_h2
+{
+    width:200px;
+    height:50px;
+    background-color:#333333;
+    color:white;
+    border:solid 1px white;
+}
+
+.location_h3
+{
+    width:200px;
+    height:50px;
+    background-color:#333333;
+    color:white;
+    border:solid 1px white;
+}
+
+.location_h4
+{
+    width:80px;
+    height:40px;
+    background-color:#333333;
+    color:white;
+    border:solid 1px white;
+}
+
+.location_h5
+{
+    width:80px;
+    height:40px;
+    background-color:#333333;
+    color:white;
+    border:solid 1px white;
+}
+
+.location_h6
+{
+    width:80px;
+    height:40px;
+    background-color:#333333;
+    color:white;
+    border:solid 1px white;
+}
+
+.location_c1
+{
+    width:50px;
+    height:30px;
+    color:black;
+    border:solid 1px white;
+}
+
+.location_c2
+{
+    color:black;
+    border:solid 1px white;
+    text-align:left;
+}
+
+.location_c3
+{
+    color:black;
+    border:solid 1px white;
+    text-align:left;
+}
+
+.location_c4
+{
+    color:black;
+    border:solid 1px white;
+}
+
+.location_c5
+{
+    color:black;
+    border:solid 1px white;
+}
+
+.location_c6
+{
+    color:black;
+    border:solid 1px white;
+}

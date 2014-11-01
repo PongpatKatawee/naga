@@ -1,0 +1,108 @@
+/* Summary table */
+.summary_h1
+{
+    padding:5px;
+    width:120px;
+    background:rgb(176,176,176);
+    border:1px #888888 solid;
+    text-align:center;
+    color:black;
+}
+
+.summary_h2
+{
+    padding:5px;
+    width:60px;
+    background:rgb(176,176,176);
+    border:1px #888888 solid;
+    text-align:center;
+    color:black;
+}
+
+.summary_r1c1
+{
+    padding:5px;
+    background:rgb(0,112,192);
+    border:1px #888888 solid;
+    text-align:left;
+    color:black;
+}
+
+.summary_r2c1
+{
+    padding:5px;
+    background:rgb(0,176,80);
+    border:1px #888888 solid;
+    text-align:left;
+    color:black;
+}
+
+.summary_r3c1
+{
+    padding:5px;
+    background:rgb(255,255,0);
+    border:1px #888888 solid;
+    text-align:left;
+    color:black;
+}
+
+.summary_r4c1
+{
+    padding:5px;
+    background:rgb(255,0,0);
+    border:1px #888888 solid;
+    text-align:left;
+    color:black;
+}
+
+.summary_r5c1
+{
+    padding:5px;
+    border:1px #888888 solid;
+    text-align:left;
+    color:black;
+}
+
+.summary_r1c2
+{
+    padding:5px;
+    background:rgb(0,112,192);
+    border:1px #888888 solid;
+    text-align:right;
+    color:black;
+}
+
+.summary_r2c2
+{
+    padding:5px;
+    background:rgb(0,176,80);
+    border:1px #888888 solid;
+    text-align:right;
+    color:black;
+}
+
+.summary_r3c2
+{
+    padding:5px;
+    background:rgb(255,255,0);
+    border:1px #888888 solid;
+    text-align:right;
+    color:black;
+}
+
+.summary_r4c2
+{
+    padding:5px;
+    background:rgb(255,0,0);
+    border:1px #888888 solid;
+    text-align:right;
+    color:black;
+}
+
+.summary_r5c2
+{
+    padding:5px;
+    border:1px #888888 solid;
+    text-align:right;
+    color:black;
+}

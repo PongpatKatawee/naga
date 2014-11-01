@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  
+        <title>Beta Map</title>
+       
+        <link rel="stylesheet" type="text/css" href="css/share.css">
+        <link rel="stylesheet" type="text/css" href="css/menubar.css">
+        
+        <script type="text/javascript" src="js/share/scrsensor.js"></script>
+        <script type="text/javascript" src="js/share/tools.js"></script>	
+        <script type="text/javascript" src="js/item/essential/u_space.js"></script> 
+        <script type="text/javascript" src="js/item/essential/img_item.js"></script> 
+        
+        <script type="text/javascript" src="js/ow/ow.js"></script>	
+        <script type="text/javascript" src="js/map/engine.js"></script>	
+        <script type="text/javascript" src="js/map/page.js"></script>		
+
+        <script type="text/javascript" src="js/pull_image.js"></script>	
+        <script type="text/javascript" src="js/calculate.js"></script>	
+    </head>
+    <body>
+	<div id="page">
+        <div class="menubar" style="font-size:12px;">
+
+    		<a href="index.php" style="font-size:16px;">Home</a>
+    		Zoom : <input type="text" id="zoom" value="0" style="width:30px;">
+    		<input type="submit" id="zoom-" value="-"><input type="submit" id="zoom+" value="+"> 
+
+    		Long(X) : <input type="text" id="long" value="0" style="width:50px;">
+    		<input type="submit" id="long-" value="-"><input type="submit" id="long+" value="+">   
+    			
+    		Lat(Y) : <input type="text" id="lat" value="0" style="width:50px;">   
+    		<input type="submit" id="lat-" value="-"><input type="submit" id="lat+" value="+">
+            
+            <select id="typemap">
+              <option value="0">Standard</option>
+              <option value="1">Cycle Map</option>
+              <option value="2">Transport Map</option>
+              <option value="3">MapQuest Open</option>
+              <option value="4">Humanitarian</option>
+            </select>
+
+            <div class="infobox">
+                <table>
+                    <tr><td>Max Side</td><td><span id='max_side'>X</span></td></tr>
+                    <tr><td>Cilck(x,y)</td><td><span id='positioncilck'>X:Y</span></td></tr>
+                    <tr><td>Move(x,y)</td><td><span id='positionmove'>X:Y</span></td></tr>
+                    <tr><td>Grid(x,y)</td><td><span id='grid'>X:Y</span></td></tr>
+                    <tr><td>Longitude</td><td><span id='longitude'>X</span></td></tr>
+                    <tr><td>Latitude</td><td><span id='latitude'>Y</span></td></tr>
+                </table>
+            </div>
+        </div>
+        
+        <div id="map" style="position:absolute;top:0px;left:0px;width:1024px;height:auto;">		
+            <div id="0-0" class="mapgrid"></div>
+            <div id="1-0" class="mapgrid"></div>
+            <div id="2-0" class="mapgrid"></div>
+            <div id="3-0" class="mapgrid"></div>
+			
+            <div id="0-1" class="mapgrid"></div>
+            <div id="1-1" class="mapgrid"></div>
+            <div id="2-1" class="mapgrid"></div>
+            <div id="3-1" class="mapgrid"></div>
+        </div>
+	</div>
+    </body>
+</html>

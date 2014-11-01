@@ -1,0 +1,49 @@
+
+html, body { 
+    margin:0;padding:0;
+    -webkit-font-smoothing: antialiased; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+body {width:100%; height:auto; margin:0;background-color:#666666; }
+div { margin:0;padding:0;border:0;}
+img { margin:0;padding:0;border:0;}
+p { margin:0;padding:0;border:0;}
+table { border-collapse: collapse;border: 0;}
+textarea { border:0;resize:none; }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus { outline: none; }
+
+p, input { -webkit-user-select: text; -khtml-user-select: text; -moz-user-select: text; -o-user-select: text; user-select: text; }
+
+/*
+* {
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: -moz-none;
+-o-user-select: none;
+user-select: none;
+}
+*/
+
+.page
+{
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: 12px; 
+    width:950px;
+    text-align:left;
+    margin:0 auto;
+    outline:none;
+    position:relative;
+}
+
+.mapgrid
+{
+    float:left;
+    width:256px;
+    height:256px;
+    background-color:red;
+}
